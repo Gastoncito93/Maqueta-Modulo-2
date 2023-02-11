@@ -1,15 +1,68 @@
-.navbar.navbar-expand-lg.bg-primary{
-
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(184,0,0,1) 50%, rgba(255,255,255,1) 90%);
-    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(184,0,0,1) 50%, rgba(255,255,255,1) 90%);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(184,0,0,1) 50%, rgba(255,255,255,1) 90%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
-
+body{
+    background-color: rgb(156, 49, 7);
+}
+h4{
+    color: aliceblue;
+    margin-top: -5%;
+    margin-left: 8%;
+}
+h4.nombre{
+    margin-left: 10%;
+}
+h4.titulos{
+    margin-top: 10%;
 }
 
+
+.navbar.navbar-expand-lg.bg-primary{
+
+background-color: black !important;
+
+
+    /* background: rgb(255, 5, 5);  */
+    /* background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(184,0,0,1) 50%, rgba(255,255,255,1) 90%); */
+    /* background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(184,0,0,1) 50%, rgba(255,255,255,1) 90%); */
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(184,0,0,1) 50%, rgba(255,255,255,1) 90%); */
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1); */
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(3, 247, 255);
+    }
+
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: rgb(255, 255, 255);
+}
+
+i.fa-solid.fa-user.fa-2xl:hover{
+color: rgb(255, 255, 255);
+}
+
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(36, 1, 235);
+    }
+
 i.fa-brands.fa-facebook.fa-2xl:hover{
+color: rgb(0, 26, 255);
+}
 
-color: blue;
 
+i.fa-solid.fa-user-unlock.fa-2xl:hover{
+    color: rgb(255, 255, 255);
+     }
+
+div.row.g-2.g-lg-3{
+    margin: 10rem 10rem 10rem 10rem;
+    
+}
+
+.rounded-circle.w-75{
+    margin-top: -15rem;
+}
+div h3{
+    color: aliceblue;
+    margin-top: -5rem;
+    margin-left: 10rem;
+}
+.border.border-success.p-2.mb-2{
+    margin-top: 10%;
 }
